@@ -1,7 +1,7 @@
 parameters:
 - name: pythonVersion
   type: string
-  default: '3.11'
+  default: '3.11.11'
 - name: artifactName
   type: string
   default: 'function-app-artifact'

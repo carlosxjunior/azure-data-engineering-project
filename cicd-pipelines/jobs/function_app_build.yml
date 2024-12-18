@@ -15,7 +15,7 @@ jobs:
         displayName: "Set Python version to ${{ parameters.pythonVersion }}"
         inputs:
           versionSpec: '${{ parameters.pythonVersion }}'
-          enabled: false
+        enabled: false
         
       - bash: |
           sudo apt-get update
